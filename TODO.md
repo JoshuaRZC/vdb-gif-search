@@ -9,3 +9,4 @@ The initial preparation for this projection.
 ## Tentative Topics
 
 1. Waiting for brilliant ideas.
+2. Ideas DDL: 19/11/2023 23:59 (send ideas in WeChat group).
