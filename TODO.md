@@ -9,9 +9,8 @@ The initial preparation for this projection.
 - [ ] 11/21 - 11/30: System; All, Gao
 - [ ] 11/27 - 12/4: Report; Wu, Ren, Kee, HT
 - [ ] 12/5 - 12/8: PPT & Test case demo; Ren, Kee, HT
-- [ ] 12/9 - 12/11: Prepare pre; HT, Ren, Kee 
+- [ ] 12/9 - 12/11: Prepare pre; HT, Ren, Kee
 - [ ] 12/12: Final Pre; Kee, HT, Ren
-
 
 ## Tentative Topics
 
