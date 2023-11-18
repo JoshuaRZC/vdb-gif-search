@@ -8,7 +8,7 @@ The initial preparation for this projection.
 - [ ] 11/18 - 11/26: System
 - [ ] 11/27 - 12/4: Report
 - [ ] 12/5 - 12/8: PPT
-- [ ] 12/9 - 12/11: Prepare presentation
+- [ ] 12/9 - 12/11: Prepare pre
 - [ ] 12/12: Final Pre
 
 
