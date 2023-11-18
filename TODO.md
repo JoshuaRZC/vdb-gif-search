@@ -6,7 +6,7 @@ The initial preparation for this projection.
 - [ ] Read the sample source code from [document.ai](https://github.com/GanymedeNil/document.ai)
 - [ ] Think about an interesting vector database topic and please fill it in the TODO.
 - [ ] 11/18 - 11/20: Brainstorming
-- [ ] 11/20 - 11/30: System 
+- [ ] 11/21 - 11/30: System 
 - [ ] 11/27 - 12/4: Report
 - [ ] 12/5 - 12/8: PPT & Test case demo
 - [ ] 12/9 - 12/11: Prepare pre 
