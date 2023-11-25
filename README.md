@@ -54,3 +54,7 @@ gantt
     <!-- - Slides Abstract:
     - Slides Background:
     - Slides Design: -->
+
+## vdb3170 Cache
+
+- Vector Database System bridges the gap between information retrieval and memory retention in Large Language Models.
