@@ -1,28 +1,59 @@
-[project]
+[tool.poetry]
 name = "vdb3170"
 version = "0.1.0"
 description = "Vector Database Semantic Search for CSC3170 Group Project"
-authors = [
-    { name = "Langshangyuan", email = "langshangyuan13@gmail.com" }
-]
-dependencies = [
-    "jupyter>=1.0.0",
-    "notebook>=7.0.6",
-    "flask>=3.0.0",
-    "sentence-transformers>=2.2.2",
-    "qdrant-client>=1.6.9",
-    "tqdm>=4.66.1",
-]
+authors = ["Zayn Yuan <langshangyuan13@gmail.com>"]
 readme = "README.md"
-requires-python = ">= 3.11"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.3"
+jupyter = "^1.0.0"
+notebook = "^7.0.6"
+sentence-transformers = "^2.2.2"
+qdrant-client = "^1.6.9"
+tqdm = "^4.66.1"
+streamlit = "^1.29.0"
+torch = "^2.1.1"
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "default"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
 
-[tool.rye]
-managed = true
-dev-dependencies = []
+# [project]
+# name = "vdb3170"
+# version = "0.1.0"
+# description = "Vector Database Semantic Search for CSC3170 Group Project"
+# authors = [{ name = "Langshangyuan", email = "langshangyuan13@gmail.com" }]
+# dependencies = [
+#     "jupyter>=1.0.0",
+#     "notebook>=7.0.6",
+#     "sentence-transformers>=2.2.2",
+#     "qdrant-client>=1.6.9",
+#     "tqdm>=4.66.1",
+#     "pandas>=2.1.3",
+#     "streamlit>=1.29.0",
+#     "torch>=2.1.1",
+# ]
+# readme = "README.md"
+# requires-python = ">= 3.11"
 
-[tool.hatch.metadata]
-allow-direct-references = true
+# [build-system]
+# requires = ["hatchling"]
+# build-backend = "hatchling.build"
+
+# [tool.rye]
+# managed = true
+# dev-dependencies = []
+# [[tool.rye.sources]]
+# # name = "China"
+# name = "default"
+# url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+
+# [tool.hatch.metadata]
+# allow-direct-references = true

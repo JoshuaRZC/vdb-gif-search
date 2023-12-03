@@ -2,6 +2,8 @@
 
 2023 Fall CSC3170 Database System Final Group Project
 
+We will use the [Tumblr GIF Description Dataset](http://raingo.github.io/TGIF-Release/), which contains over 100k animated GIFs and 120K sentences describing its visual content. Using this data with a *vector database* and *retriever* we are able to create an NLP-powered GIF search tool.
+
 ## vdb3170 Overview
 
 - 11/18 - 11/20: Brainstorming; All
@@ -32,6 +34,12 @@ gantt
         Presentation Preparation                :2023-12-09, 2d
         Presentation Final                      :2023-12-12, 1d
 ```
+
+## vdb3170 Project Layout
+
+- The `vdb3170/gif-search.ipynb` demonstrates the data preparation, indexing, and querying steps needed to populate and query the index.
+- The `vdb3170/app.py` is the Streamlit script powering the app itself.
+- The `data/tgit-v1.0.tsv` contains about 10k GIFs with text description.
 
 ## vdb3170 Teams
 
