@@ -35,11 +35,34 @@ gantt
         Presentation Final                      :2023-12-12, 1d
 ```
 
+## vdb3170 Project Setup
+
+```shell
+# Pull the Qdrant Docker Image
+docker pull qdrant/qdrant
+# Create Virtual Environment
+poetry install
+
+# Start the Qdrant Server
+docker run -p 6333:6333 \
+    -v $(pwd)/qdrant_storage:/qdrant/storage \
+    qdrant/qdrant
+
+# Active the Virtual Python Environment
+poetry shell
+# Start the Streamlit Web Server
+streamlit run vdb3170/app.py
+
+```
+
 ## vdb3170 Project Layout
 
 - The `vdb3170/gif-search.ipynb` demonstrates the data preparation, indexing, and querying steps needed to populate and query the index.
 - The `vdb3170/app.py` is the Streamlit script powering the app itself.
-- The `data/tgit-v1.0.tsv` contains about 10k GIFs with text description.
+- The `vdb3170/get_started.ipynb` use faked song examples to illustrate the elementary Qdrant Python Client API.
+- The `data/tgit-v1.0.tsv` contains GIF urls and description about these 10k GIFs.
+- The `data/qdrant` contains the vector database related files.
+- The `models/all-MiniLM-L6-v2` stores a fined Sentence Transformer Model.
 
 ## vdb3170 Teams
 
