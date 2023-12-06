@@ -45,7 +45,7 @@ poetry install
 
 # Start the Qdrant Server
 docker run -p 6333:6333 \
-    -v $(pwd)/qdrant_storage:/qdrant/storage \
+    -v $(pwd)/data/qdrant:/qdrant/storage \
     qdrant/qdrant
 
 # Active the Virtual Python Environment
